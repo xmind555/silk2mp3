@@ -1,0 +1,13 @@
+[package]
+name = "silk2mp3"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+silk-rs = "0.2.0"
+clap = { version = "4.2.2", features = ["derive"] }
+mp3lame-encoder = "0.2"
+anyhow = "1.0"
+walkdir = "2.5.0"
